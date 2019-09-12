@@ -1,0 +1,95 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	min-height: 100%;
+	background-image: linear-gradient(to bottom right, white, rgb(144, 215, 249));
+	background-position: cover;
+	min-width: 500px;
+}
+
+.wrapper {
+	width: 55%;
+	margin: 0px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 3% 0 1.5% 0;
+}
+
+.inputText {
+	margin-bottom: 25px;
+	padding: 30px 10px;
+	text-indent: 30px;
+	background-image: linear-gradient(to left, white, rgb(209, 238, 252));
+	font-size: 25px;
+	color: black;
+	outline: none;
+	border: 2.5px solid rgb(160, 199, 255);
+	transition: all .5s;
+}
+
+.inputText:focus {
+	transition: all .5s;
+	background-image: linear-gradient(to right, white, rgb(209, 238, 252));
+}
+
+#e-button {
+	display: block;
+	padding: 100px;
+	background-image: url(../img/exit-icon.png.);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+	background-color: white;
+	border: 3px solid rgb(160, 199, 255);
+}
+
+#e-button:hover {
+	cursor: pointer;
+}
+
+.buttons {
+	text-decoration: none;
+	background-color: rgb(209, 238, 252);
+	border: 3px solid rgb(152, 171, 255);
+	color: black;
+	padding: 30px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all .3s;
+	display: block;
+}
+
+.buttons:hover {
+	transition: all .5s;
+	background-color: rgb(104, 200, 247);
+	cursor: pointer;
+}
+
+.textInRamke {
+	text-align: center;
+	border: 2px solid #4c6cf9; 
+	padding: 10px 15px; 
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+
+.warning {
+	text-align: center;
+	color: #ff0000;
+	border: 2px solid #ff2c00;
+	padding: 10px 15px; 
+	font-size: 20px; 
+	font-weight: bold;
+	margin-bottom: 10px;
+}

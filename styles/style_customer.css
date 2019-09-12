@@ -1,0 +1,86 @@
+body, html {
+	height: 100%;
+	background-image: linear-gradient(to bottom right, white, rgb(144, 215, 249));
+	background-position: cover;
+}
+
+.header {
+	background-color: rgb(255,252,214);
+	margin-bottom: 1.5%;
+}
+
+.header > ul {
+	list-style-type: none;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.header > ul > li > a {
+	display: block;
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
+	padding: 10px 5px;
+	font-weight: bold;
+}
+
+.header > ul > li > a:hover {
+	border-left: 3px solid black; 
+	border-right: 3px solid black; 
+}
+
+.header > form {
+	float: right;
+}
+
+#e-button {
+    width: 60px;
+    height: 58px;
+    padding: 0 6px;
+    transition: .3s;
+    border: 2px solid white;
+    background-image: url('../img/exit-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+#e-button:hover {
+    transition: .3s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.main-info {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.cloth, .furniture {
+	background-color: rgb(209, 238, 252);
+	border: 2px dashed black;
+	width: 30%;
+}
+
+.item {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 4% 0 2% 0; 
+	border-bottom: 3px dashed black;
+}
+
+.item > p {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.image {
+	margin: 2% 0%;
+	width: 20%;
+}

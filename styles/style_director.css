@@ -1,0 +1,14 @@
+#e-button {
+	display: block;
+	padding: 100px;
+	background-image: url(../img/exit-icon.png.);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: center;
+	background-color: white;
+	border: 3px solid rgb(160, 199, 255);
+}
+
+#e-button:hover {
+	cursor: pointer;
+}
